@@ -14,5 +14,6 @@ def counter():
             countC += 1
         elif (base == "G"):
             countG += 1
-    return(countA, countC, countG, countT)
+    print(countA, countC, countG, countT)
+
 counter()
